@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    align-items: center;
+    overflow:unset;
+}
+
+#heading{
+    text-align: center;
+    position:relative;
+    top: 1vh;
+    font-size:100px;
+    font-family: cursive;
+}
+
+hr{
+    position: relative;
+    top: -7vh;
+    width: 40vw;
+    border: 2px solid white;
+}
+
+#form{
+
+    position: relative;
+    text-align: center;
+    top: -2vh;
+    margin: auto;
+}
+
+#search{
+    border: 2px solid #1a1a1d;
+    width: 35vw;
+    height: 5vh;
+    border-radius: 35px;
+    font-size: x-large;
+    padding: 5px 20px;
+}
+#search:hover{
+    box-shadow: 3px 3px 25px white;
+}
+
+#main{
+margin: auto;
+width: 50vw;
+height: 800px;
+}
+
+.card{
+    position: relative;
+    top: 6.8vh;
+    border: 3px solid orange;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #252525;
+    color: white;
+    box-shadow: 3px 3px 10px orange;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #1a1a1d;
+    box-shadow:3px 3px 10px #1a1a1d;
+    border-radius: 50%;
+}
+
+.user-info{
+    text-align: center;
+}
+.user-info h2{
+    font-size: 50px;
+    margin: 0;
+}
+.user-info p{
+    margin: 2px 0;
+    margin-top: 5px;
+}
+.user-info hr{
+    position: relative;
+    top: 0.1vh;
+    width: 20vw;
+    border: 0.5px solid white;
+}
+
+.info{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.info li{
+    float: left;
+    align-items: center;
+}
+
+#repos{
+    position: relative;
+    padding: 10px;
+    font-weight: 550;
+}
+
+#repos a {
+    text-decoration: none;
+    color: #252525;
+    padding: 5px;
+    display: inline-block;
+    width: fit-content;
+    margin: 2px;
+  }
+
+#repos a:hover{
+    color: orange;
+}
+
+.repo{
+    background-color: #faf9fa;
+    border-radius: 25px;
+}
+
+#links{
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+    margin-left: 30px;
+}
+#link{
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: x-large;
+    padding: 10px;  
+    text-decoration: none;
+}
